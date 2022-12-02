@@ -13,4 +13,10 @@ lint:
 test:
 	python -m pytest -vv --cov=hello test_hello.py
 
-all: install lint test
+build:
+	#build container
+
+deploy:
+	#deploy container
+
+all: install lint test deploy
