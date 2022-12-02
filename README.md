@@ -1,4 +1,4 @@
-![Python application test with Github Actions](https://github.com/noahgift/scaffold/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
+[![Python 3.8](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/main.yml/badge.svg)](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/main.yml)
 
 # Project 4
 
