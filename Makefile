@@ -11,7 +11,7 @@ lint:
 	pylint --disable=R,C hello.py mylib/*.py
 
 test:
-	python -m pytest -vv --cov=hello test_hello.py
+	python -m pytest -vv --cov=mylib test_logic.py
 
 build:
 	#build container
