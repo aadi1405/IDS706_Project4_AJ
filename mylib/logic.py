@@ -17,8 +17,8 @@ def phrases(name):
     # this returns phrases
     page = wiki(name)
     blob = TextBlob(page)
-    phrases = blob.noun_phrases
-    return phrases
+    phrase = blob.noun_phrases
+    return phrase
     
 def page_wiki(name):
     # this is a wikipedia page
