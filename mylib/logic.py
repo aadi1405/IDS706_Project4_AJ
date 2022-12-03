@@ -1,4 +1,5 @@
 import wikipedia
+from textblob import TextBlob
 
 
 def wiki(name="2022_FIFA_World_Cup", length=1):
@@ -12,6 +13,13 @@ def search_wiki(name):
     results = wikipedia.search(name)
     return results
 
+def phrases(name):
+    # this returns phrases
+    page = wiki(name)
+    blob = TextBlob(page)
+    phrases = blob.noun_phrases
+    return phrases
+    
 def page_wiki(name):
     # this is a wikipedia page
     page = wikipedia.page(name)
