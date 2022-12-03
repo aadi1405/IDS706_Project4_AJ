@@ -6,9 +6,13 @@ from mylib.logic import phrases as wikiphrases
 
 app = FastAPI()
 
+
 @app.get("/")
 async def root():
-    return {"message": "Wikipedia API. Call - search/name or wiki/value or phrases/value"}
+    return {
+        "message": "Wikipedia API. Call - search/name or wiki/value or phrases/value"
+    }
+
 
 @app.get("/search/{value}")
 async def search(value: str):
@@ -17,12 +21,14 @@ async def search(value: str):
     result = search_wiki(value)
     return {"result": result}
 
+
 @app.get("/wiki/{name}")
 async def search(name: str):
     """to find in wikipedia"""
 
     result2 = wikilogic(name)
     return {"result": result2}
+
 
 @app.get("/phrase/{name}")
 async def phrases(name: str):
@@ -34,5 +40,5 @@ async def phrases(name: str):
     return {"result": result3}
 
 
-if __name__ == '__main__':
-    uvicorn.run(app, port=8080, host='0.0.0.0')
+if __name__ == "__main__":
+    uvicorn.run(app, port=8080, host="0.0.0.0")
