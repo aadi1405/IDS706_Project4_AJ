@@ -21,6 +21,11 @@ build:
 	#build container
 	docker build -t deploy-fastapi .
 
+run:
+	#run container
+	#docker run -p 127.0.0.1:8080:8080 34117cf4b55d
+
+
 deploy:
 	#deploy container
 	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 423447124377.dkr.ecr.us-east-1.amazonaws.com	docker build -t wiki-fast-app .
