@@ -3,7 +3,7 @@
 # Project 4
 
 
-# scaffold 
+# Steps -  
 
 1) Created python virtual env
 2) Created empty files - Makefile, requirements.txt, main.py, Dockerfile, mylib/__innit__.py
