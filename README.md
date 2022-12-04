@@ -1,9 +1,6 @@
 
 [![Python application test with Github Actions](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml/badge.svg)](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml)
 
-
-[![Python application test with Github Actions](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiY3kvTEVoMkc1bUE0ckZpbzFzWkVnZXpCRW5LOGxSckloaVk0ZDRaSUlKZHU5U1QyNVNGM0s3b3RpT3ZISHZrdkphRmhpZktvbDAvMFQwU2RFWWlxSFNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IkZYeWFPSmZpcjY4ZmJFUDQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
-
 # Project 4 -
 
 Create a Microservice that returns a JSON payload and performs a Data Engineering related task
@@ -24,7 +21,20 @@ Configure Build Server to Deploy Changes on build (Continuous Delivery)
 10) Building container
 11) Setup AWS Code Build push to ECR (Elastic Container Registry)
 
+
+![image](https://user-images.githubusercontent.com/67281453/205518554-b047ba23-f7d4-4dbb-a0a1-4817282cde04.png)
+
+
 This project was learnt from [Build Real-World Python Microservices with Continuous Delivery From Zero](https://www.youtube.com/watch?v=YB-_FsssK8E)
+
+What is the FASTAPI application?
+
+A Json payload that retrieves wikipedia information and has three functions, namely,
+1) Search : Shows the list of wikipedia pages with a similar name
+2) wiki : Returns the wikipedia content for the value searched
+3) phrase : returns the paragraph in phrases (Using TextBlob)
+
+
 
 
 
