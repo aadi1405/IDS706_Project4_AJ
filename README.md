@@ -2,6 +2,7 @@
 [![Python application test with Github Actions](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml/badge.svg)](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml)
 
 # Project 4 -
+Continuous Delivery of Flask/FastAPI Data Engineering API on AWS
 
 Create a Microservice that returns a JSON payload and performs a Data Engineering related task
 Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
