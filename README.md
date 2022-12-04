@@ -1,7 +1,9 @@
-[![Python 3.8](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/main.yml/badge.svg)](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/main.yml)
+
+[![Python application test with Github Actions](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml/badge.svg)](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml)
 
 # Project 4 -
 This is a project to achieve a 
+testing
 
 # Steps -  
 
