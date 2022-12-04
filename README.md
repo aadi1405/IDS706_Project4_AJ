@@ -15,10 +15,11 @@ testing
 3) Populate Makefile 
 4) Set up continous integration
 5) Build a cli using python fire library
-6_ Creating the main & logic files
-6) Creating test_logic and test_main to check our main and logic functions
-7) Deploy to AWS Code Build ECR
+6) Creating the main & logic files
+7) Creating test_logic and test_main to check our main and logic functions
+8) Building container
+9) Setup AWS Code Build push to ECR (Elastic Container Registry)
 
-# putting the steps inside that are the life cycle of the project
+
 
 
