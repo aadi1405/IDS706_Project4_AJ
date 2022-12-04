@@ -35,6 +35,11 @@ A Json payload that retrieves wikipedia information and has three functions, nam
 3) phrase : returns the paragraph in phrases (Using TextBlob)
 
 
+Code Build on AWS - Success (This was deleted right after the project to avoid any charges 
+![image](https://user-images.githubusercontent.com/67281453/205520605-0b7b1f94-a6b1-4614-8d0f-d4e5768a15a9.png)
+
+
+
 
 
 
