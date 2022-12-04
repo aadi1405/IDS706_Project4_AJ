@@ -17,6 +17,7 @@ testing
 5) Build a cli using python fire library
 6_ Creating the main & logic files
 6) Creating test_logic and test_main to check our main and logic functions
+7) Deploy to AWS Code Build ECR
 
 # putting the steps inside that are the life cycle of the project
 
