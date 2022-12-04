@@ -26,9 +26,9 @@ Configure Build Server to Deploy Changes on build (Continuous Delivery)
 ![image](https://user-images.githubusercontent.com/67281453/205518554-b047ba23-f7d4-4dbb-a0a1-4817282cde04.png)
 
 
-This project was learnt from [Build Real-World Python Microservices with Continuous Delivery From Zero](https://www.youtube.com/watch?v=YB-_FsssK8E)
+## This project was learnt from [Build Real-World Python Microservices with Continuous Delivery From Zero](https://www.youtube.com/watch?v=YB-_FsssK8E)
 
-What is the FASTAPI application?
+## What is the FASTAPI application?
 
 A Json payload that retrieves wikipedia information and has three functions, namely,
 1) Search : Shows the list of wikipedia pages with a similar name
@@ -36,7 +36,7 @@ A Json payload that retrieves wikipedia information and has three functions, nam
 3) phrase : returns the paragraph in phrases (Using TextBlob)
 
 
-Code Build on AWS - Success (This was deleted right after the project to avoid any charges  
+## Code Build on AWS - Success (This was deleted right after the project to avoid any charges  
 
 Screenshot to show what was done on AWS : 
 
