@@ -29,8 +29,8 @@ run:
 deploy:
 	#deploy container
 	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 423447124377.dkr.ecr.us-east-1.amazonaws.com	docker build -t wiki-fast-app .
-	docker build -t wiki-fast-app .
-	docker tag wiki-fast-app:latest 423447124377.dkr.ecr.us-east-1.amazonaws.com/wiki-fast-app:latest
-	docker push 423447124377.dkr.ecr.us-east-1.amazonaws.com/wiki-fast-app:latest
-
+	docker build -t wiki-aj .
+	docker tag wiki-aj:latest 423447124377.dkr.ecr.us-east-1.amazonaws.com/wiki-aj:latest
+	docker push 423447124377.dkr.ecr.us-east-1.amazonaws.com/wiki-aj:latest
+	
 all: install post-install lint test deploy
