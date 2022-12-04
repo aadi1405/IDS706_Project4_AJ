@@ -1,7 +1,7 @@
 
 [![Python application test with Github Actions](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml/badge.svg)](https://github.com/aadi1405/IDS706_Project4_AJ/actions/workflows/devops.yml)
 
-https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiY3kvTEVoMkc1bUE0ckZpbzFzWkVnZXpCRW5LOGxSckloaVk0ZDRaSUlKZHU5U1QyNVNGM0s3b3RpT3ZISHZrdkphRmhpZktvbDAvMFQwU2RFWWlxSFNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IkZYeWFPSmZpcjY4ZmJFUDQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
+[![Code Build Badge]https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiY3kvTEVoMkc1bUE0ckZpbzFzWkVnZXpCRW5LOGxSckloaVk0ZDRaSUlKZHU5U1QyNVNGM0s3b3RpT3ZISHZrdkphRmhpZktvbDAvMFQwU2RFWWlxSFNRPSIsIml2UGFyYW1ldGVyU3BlYyI6IkZYeWFPSmZpcjY4ZmJFUDQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
 
 # Project 4 -
 This is a project to achieve a 
