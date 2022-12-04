@@ -7,5 +7,7 @@ fire==0.4.0
 fastapi==0.88.0
 uvicorn==0.20.0
 textblob==0.17.1
+mangum
+
 
 
