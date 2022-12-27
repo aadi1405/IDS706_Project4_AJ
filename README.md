@@ -38,6 +38,8 @@ A Json payload that retrieves wikipedia information and has three functions, nam
 
 ## Code Build on AWS - Success (This was deleted right after the project to avoid any charges)
 
+The Code Build has been terminated to avoid any additional charges
+
 Screenshot to show what was done on AWS : 
 
 ![image](https://user-images.githubusercontent.com/67281453/205520605-0b7b1f94-a6b1-4614-8d0f-d4e5768a15a9.png)
